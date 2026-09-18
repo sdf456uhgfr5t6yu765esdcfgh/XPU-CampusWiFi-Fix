@@ -1,13 +1,11 @@
 @echo off
-title Fix Campus WiFi (Watchdog)
+title XPU Campus WiFi Fix (Watchdog)
 echo.
 echo  ==========================================
-echo   Fix Campus WiFi - auto-fix + watchdog
+echo   XPU Campus WiFi Fix - for XATU/XPU campus
+echo   auto-fix + watchdog (auto-reconnect /
+echo   roam to 5GHz / renew IP). Re-check 15s.
 echo  ==========================================
-echo.
-echo  Default: detect and fix weak/dropped WiFi,
-echo           force-roam to 5GHz, renew IP when
-echo           public net dies. Re-check every 15s.
 echo  Press Q to quit the watchdog.
 echo.
 echo  Optional args:
